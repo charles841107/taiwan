@@ -1,0 +1,87 @@
+html {
+    padding-top: 89px;
+    height: 100vh;
+}
+
+body {
+    /* background-image: url("../img/test/background.png");
+    background-size: cover; */
+    background-color: #EEEBE7;
+}
+
+.navbar-costumize {
+    background-color: #E6E1D7;
+    color: #736358;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.navbar-toggler-icon {
+    border: solid 1px #000000;
+}
+
+.nav-item {
+    margin-left: 0.5em;
+}
+
+.nav-item :hover {
+    color: #F8BC7C;
+}
+
+.navbar-brand img {
+    max-height: 5vh;
+}
+
+.active a {
+    color: #736358;
+}
+
+.nav-link {
+    color: #BFB8B4;
+}
+
+.nav-item h4 {
+    font-size: 1.6rem;
+}
+
+.nav-item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.main {
+    height: 80vh;
+    text-align: center
+}
+
+.text-title {
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #585858;
+    line-height: 6rem;
+}
+
+.text-content {
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+}
+
+.text-img {
+    text-align: center;
+}
+
+.text-img img {
+    width: 50%;
+}
+
+.footer {
+    margin-top: 5rem;
+    background-color: #736358;
+    font-size: 1rem;
+    color: #998675;
+}
+
+.footer img {
+    justify-content: right;
+    height: 30px;
+}

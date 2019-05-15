@@ -1,0 +1,460 @@
+html {
+  height: 100vh;
+  padding-top: 89px;
+}
+
+body {
+min-height: 100vh;
+background-image: url("../img/discover/background/L.png");
+background-size: cover;
+background-color: #E6E1D7;
+}
+
+.navbar-costumize {
+    background-color: #E6E1D7;
+    color: #736358;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.navbar-toggler-icon {
+    border: solid 1px #000000;
+}
+
+.navbar-brand img {
+    max-height: 5vh;
+}
+
+.nav-item {
+    margin-left: 0.5em;
+}
+
+.nav-item :hover {
+    color: #F8BC7C;
+}
+
+.active a {
+    color: #736358;
+}
+
+.nav-link {
+    color: #BFB8B4;
+}
+
+.nav-item h4 {
+    font-size: 1.6rem;
+}
+
+.nav-item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.title {
+    margin-top:10vh;
+    margin-bottom: 3vh;
+    color: #fff;
+}
+
+.menu svg {
+    height: 15vh;
+}
+
+.content {
+    margin-top: 8vh;
+}
+
+.text-block {
+    margin-top: 7vh;
+}
+
+.section-title {
+    background-color: #736358;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.section-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #5D5341;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+
+.content-svg-high{
+    margin-top: 10vmin;
+    height: 40vh;
+}
+
+.content-svg-wide{
+    margin-top: 10vmin;
+    width: 25vw;
+}
+
+.content-svg-dandan{
+    margin-top: 14vh;
+    width: 25vw;
+}
+
+.content h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.fp-slidesNav {
+    width: 350px;
+}
+
+.back-font {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    animation: float 4s 0s infinite;
+}
+
+.back-a:hover {
+    text-decoration: none;
+}
+
+[class^="tips-"] {
+    cursor: pointer;
+}
+
+.layer-style {
+    border: 4px solid #F8BC7C;
+    background-color: #E6E1D7;
+}
+
+.layer-style p {
+    color: #5D5341;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+/* animation */
+
+#cup:hover #bubble {
+    animation: float 2s infinite;
+    transform-origin: center center;
+}
+
+#beefnoodle:hover #veg-right {
+    animation: fade-out, fade-in-down;
+    animation-duration:0.5s,0.5s;
+    animation-timing-function:linear,ease-out;
+    animation-delay:0s,0.5s;
+    animation-iteration-count:1,1;
+    animation-direction: normal,normal;
+    animation-fill-mode: forwards,forwards;
+}
+
+#beefnoodle:hover #veg-left {
+    animation: fade-out, fade-in-down;
+    animation-duration:0.5s,0.5s;
+    animation-timing-function:linear,ease-out;
+    animation-delay:0s,1s;
+    animation-iteration-count:1,1;
+    animation-direction: normal,normal;
+    animation-fill-mode: forwards,forwards;
+}
+
+#beefnoodle:hover #beef-right {
+    animation: fade-out, fade-in-down;
+    animation-duration:0.5s,0.5s;
+    animation-timing-function:linear,ease-out;
+    animation-delay:0s,1.5s;
+    animation-iteration-count:1,1;
+    animation-direction: normal,normal;
+    animation-fill-mode: forwards,forwards;
+}
+
+#beefnoodle:hover #beef-back {
+    animation: fade-out, fade-in-down;
+    animation-duration:0.5s,0.5s;
+    animation-timing-function:linear,ease-out;
+    animation-delay:0s,2s;
+    animation-iteration-count:1,1;
+    animation-direction: normal,normal;
+    animation-fill-mode: forwards,forwards;
+}
+
+#beefnoodle:hover #beef-left {
+    animation: fade-out, fade-in-down;
+    animation-duration:0.5s,0.5s;
+    animation-timing-function:linear,ease-out;
+    animation-delay:0s,2.5s;
+    animation-iteration-count:1,1;
+    animation-direction: normal,normal;
+    animation-fill-mode: forwards,forwards;
+}
+
+#dandan:hover #dandan-meat {
+    animation: fade-out 0.5s linear 0s 1 normal forwards, fade-in-down 0.5s ease-out 1.5s 1 normal forwards;
+}
+
+#dandan:hover #dandan-veg {
+    animation: size107 0.5s ease-in-out 1;
+}
+
+#dandan:hover #dandan-egg-right {
+    animation: size107 0.5s ease-in-out 0.5s 1 ;
+}
+
+#dandan:hover #dandan-egg-left {
+    animation: size107 0.5s ease-in-out 1s 1 ;
+}
+
+#tofu:hover #tofu1 {
+    animation: bounce 1s 0s 1;
+}
+
+#tofu:hover #tofu2 {
+    animation: bounce 1s 0.15s 1;
+}
+
+#tofu:hover #tofu3 {
+    animation: bounce 1s 0.35s 1;
+}
+
+#oyster:hover #oyster-oyster {
+    animation: swing 0.5s 1;
+    transform-origin: center center;
+}
+
+#oyster:hover #oyster-sauce {
+    animation: fadeIn 1.5s ease-out 0s 1, zoomIn 2s 0s;
+    transform-origin: center center;
+}
+
+#bao:hover #b-1 {
+    animation: bounce 1s  0s 1;
+}
+
+#bao:hover #b-2 {
+    animation: bounce 1s  0.1s 1;
+}
+
+#bao:hover #b-3 {
+    animation: bounce 1s  0.2s 1;
+}
+
+#bao:hover #b-4 {
+    animation: bounce 1s  0.3s 1;
+}
+
+#bao:hover #b-5 {
+    animation: bounce 1s  0.4s 1;
+}
+
+#bao:hover #b-6 {
+    animation: bounce 1s  0.5s 1;
+}
+
+#bao:hover #b-7 {
+    animation: bounce 1s  0.6s 1;
+}
+
+#bao:hover #b-8 {
+    animation: bounce 1s  0.7s 1;
+}
+
+#bao:hover #b-9 {
+    animation: bounce 1s  0.8s 1;
+}
+
+#lu:hover #lu-sauce {
+    animation: fadeIn 1.5s ease-out 0s 1, zoomIn 2s 0s;
+    transform-origin: center center;
+}
+
+#lu:hover #lu-meat {
+    animation: fade-in-down 1s ease-out 0s 1 normal forwards;
+}
+
+#chickenpie:hover #chickenpie-icon {
+    animation: tada125 1s 0s 1;
+    transform-origin: center center;
+}
+
+#chickenpie:hover #chickenpie-bite {
+    animation: fadeOut 0.3s 1s 1 forwards;
+}
+
+#bawan:hover #bawan-veg1 {
+    animation: wobble-small-down 2.5s 0s 1;
+    transform-origin: center center;
+}
+
+#bawan:hover #bawan-veg2 {
+    animation: wobble-small-down 2.5s 0.2s 1 backwards;
+    transform-origin: center center;
+}
+
+#bawan:hover #bawan-veg3 {
+    animation: wobble-small-down 2.5s 0.4s 1 backwards;
+    transform-origin: center center;
+}
+
+#bawan:hover #bawan-bawan {
+    animation: float-down 1.5s 0s 2;
+}
+
+#coffin:hover #coffin-cap {
+    animation: cap-move 1.5s 0s 1 backwards;
+    transform-origin: center center;
+}
+
+#coffin:hover #coffin-sauce {
+    animation: fadeIn 1.5s 0s 1 backwards, zoomIn 1s 0s;
+    transform-origin: center center;
+}
+
+#luwei:hover #luwei-veg {
+    animation: fade-in-down 1s 1.5s 1 normal backwards;
+}
+
+#luwei:hover #luwei-egg1 {
+    animation: bounceInDown 1.5s 0.7s 1 backwards;
+}
+
+#luwei:hover #luwei-egg2 {
+    animation: bounceInDown 1.5s 0.8s 1 backwards;
+}
+
+#luwei:hover #luwei-egg3 {
+    animation: bounceInDown 1.5s 0.9s 1 backwards;
+}
+
+#luwei:hover #luwei-right {
+    animation: bounceInRight 1.5s 0.3s 1 backwards;
+    transform-origin: center center;
+}
+
+#luwei:hover #luwei-dougan {
+    animation: bounceInUp 1.5s 0s 1 backwards;
+    transform-origin: center center;
+}
+
+#salt:hover #salt-1 {
+    animation: bounceInDown 1s 0s 1 backwards;
+}
+
+#salt:hover #salt-2 {
+    animation: bounceInDown 1s 0.1s 1 backwards;
+}
+
+#salt:hover #salt-3 {
+    animation: bounceInDown 1s 0.3s 1 backwards;
+}
+
+#salt:hover #salt-4 {
+    animation: bounceInDown 1s 0.5s 1 backwards;
+}
+
+#salt:hover #salt-5 {
+    animation: bounceInDown 1s 0.6s 1 backwards;
+}
+
+#salt:hover #salt-6 {
+    animation: bounceInDown 1s 0.7s 1 backwards;
+}
+
+@keyframes float {
+    0% {transform: translateY(0px)}
+    50% {transform: translateY(-20px)}
+    100% {transform: translateY(0px)}
+}
+
+@keyframes fade-out {
+    100% {opacity: 0;}
+}
+
+@keyframes fade-in-down {
+    0% {opacity: 0; transform: translateY(-30px);}
+    50% {opacity: 1;}
+}
+
+@keyframes size107 {
+    50% {transform: scale(1.07)}
+    100% {transform: scale(1)}
+}
+
+@keyframes tada125 {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -5deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 5deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 5deg);
+    }
+  
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -5deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+@keyframes wobble-small-down {
+    from {
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0);
+        opacity: 0;
+    }
+
+    15% {
+        -webkit-transform: translate3d(-8%, -8%, 0) rotate3d(0, 0, 1, -5deg);
+        transform: translate3d(-8%, -8%, 0) rotate3d(0, 0, 1, -5deg);
+        opacity: 1;
+    }
+
+    30% {
+        -webkit-transform: translate3d(5%, -6%, 0) rotate3d(0, 0, 1, 3deg);
+        transform: translate3d(5%, -6%, 0) rotate3d(0, 0, 1, 3deg);
+    }
+
+    45% {
+        -webkit-transform: translate3d(-3%, -4%, 0) rotate3d(0, 0, 1, -3deg);
+        transform: translate3d(-3%, -4%, 0) rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: translate3d(2%, -3%, 0) rotate3d(0, 0, 1, 2deg);
+        transform: translate3d(2%, -3%, 0) rotate3d(0, 0, 1, 2deg);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-1%, -2%, 0) rotate3d(0, 0, 1, -1deg);
+        transform: translate3d(-1%, -2%, 0) rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes float-down {
+    50% {transform: translateY(2%)}
+}
+
+@keyframes cap-move {
+    0% {transform: rotate(-30deg) translate3d(-22% ,2%, 0);}
+}

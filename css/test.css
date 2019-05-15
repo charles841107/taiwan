@@ -1,0 +1,152 @@
+html {
+    padding-top: 89px;
+    height: 100vh;
+}
+
+body {
+    background-image: url("../img/test/background.png");
+    background-size: cover;
+}
+
+.navbar-costumize {
+    background-color: #E6E1D7;
+    color: #736358;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.navbar-toggler-icon {
+    border: solid 1px #000000;
+}
+
+.nav-item {
+    margin-left: 0.5em;
+}
+
+.nav-item :hover {
+    color: #F8BC7C;
+}
+
+.active a {
+    color: #736358;
+}
+
+.nav-link {
+    color: #BFB8B4;
+}
+
+.nav-item h4 {
+    font-size: 1.6rem;
+}
+
+.nav-item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    max-height: 5vh;
+}
+
+.enter-img {
+    height: 80vh;
+    text-align: center
+}
+
+#enter {
+    height: 80vh;
+    cursor: pointer;
+}
+
+.main-block {
+    background-color: #736358;
+    height: 60vh;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+.main-block h3 {
+    color: #fff;
+    font-size: 3vmin;
+}
+
+.main-block label {
+    color: #fff;
+    font-size: 2.5vmin;
+    background-color: rgb(138, 129, 123);
+    border-radius: 5px;
+    height: 15%;
+    cursor: pointer;
+}
+
+.main-block label:hover {
+    background-color: #F8BC7C;
+}
+
+.main-block input {
+    display: none;
+}
+
+.main-block input:checked + label {
+    background-color: #F8BC7C;
+}
+
+.btn-next {
+    background-color: rgb(110, 105, 101);
+    font-size: 2.5vmin;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-next:hover {
+    background-color: #F8BC7C;
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.result-container {
+    margin-top: 10vmin;
+}
+
+.text-score {
+    color: #736358;
+    font-size: 5vmax;
+}
+
+.img-result img {
+    max-width: 50vw;
+}
+
+.result-btn .col-2 {
+    color: #fff;
+    background-color: rgb(138, 129, 123);
+    font-size: 2.5vmin;
+    border-radius: 5px;
+}
+
+.result-btn .col-2:hover {
+    background-color: #F8BC7C;
+    cursor: pointer;
+}
+
+.answer-container img{
+    max-width: 100%;
+}
+
+.answer-container h5 {
+    color: #473d36;
+    line-height: 40px;
+}
+
+.answer-container p {
+    color: #61534a;
+    line-height: 36px;
+}
+
+.footer {
+    background-color: #736358;
+    font-size: 1rem;
+    color: #998675;
+}
